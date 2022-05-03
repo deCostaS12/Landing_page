@@ -1,0 +1,82 @@
+
+body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.header {
+    display:flex;
+    flex-direction: column;
+    background-color:#1f2937; 
+    
+}
+
+.h_top {
+    display:flex;
+    justify-content:center;
+    color:#f9faf8;
+    font-size:24px;
+    
+}
+
+.h_logo{
+    margin-right: 650px;
+    font-weight: bold;
+}
+
+.h_text {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #f9faf8;
+    width: 500px;
+}
+
+.h_links {
+    display: flex;
+    margin-left: 30px;
+}
+
+.h_sub{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 550px;
+}
+
+
+.h_mid {
+    display:flex;
+    flex: 1;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.intro {
+    display: flex;
+    flex-shrink: 2;
+    flex-direction: column;
+    margin-left: 190px;
+    
+}
+
+.sign_up {
+    background-color: rgb(0, 60, 255);
+    width: 90px;
+    margin-top: 10px;
+    color: #E5E7EB;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+.welcome_img {
+    background-color: #4c4d50;
+    color: #E5E7EB;
+    margin-left: 100px;
+    width: 800px;
+    text-align: center;
+    line-height: 214px;
+    
+
+}
+
